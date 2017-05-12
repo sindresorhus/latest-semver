@@ -1,0 +1,43 @@
+{
+  "name": "latest-semver",
+  "version": "0.0.0",
+  "description": "Get the latest stable semver version from an array of versions",
+  "license": "MIT",
+  "repository": "sindresorhus/latest-semver",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "semver",
+    "semantic",
+    "version",
+    "versioning",
+    "latest",
+    "stable",
+    "max",
+    "maximum",
+    "highest",
+    "newest",
+    "git",
+    "tag",
+    "tags"
+  ],
+  "dependencies": {
+    "to-semver": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
