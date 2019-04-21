@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from '.';
+import latestSemver from '.';
 
 test('main', t => {
 	const versions = [
@@ -11,12 +11,12 @@ test('main', t => {
 		'v1.6.7'
 	];
 
-	t.is(m(versions), '1.7.0');
+	t.is(latestSemver(versions), '1.7.0');
 });
 
 test('no versions', t => {
-	t.is(m([]), undefined);
-	t.is(m(['foo', 'bar']), undefined);
+	t.is(latestSemver([]), undefined);
+	t.is(latestSemver(['foo', 'bar']), undefined);
 });
 
 test('handles prerelease versions', t => {
@@ -26,6 +26,5 @@ test('handles prerelease versions', t => {
 		'1.0.0'
 	];
 
-	t.is(m(versions), '1.2.0');
+	t.is(latestSemver(versions), '1.2.0');
 });
-
