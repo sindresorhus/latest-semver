@@ -1,5 +1,5 @@
 /**
-Get the latest stable [semver](http://semver.org) version from an array of versions.
+Get the latest stable [semver](https://semver.org) version from an array of versions.
 
 Non-semver versions and prereleases are ignored.
 

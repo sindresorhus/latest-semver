@@ -1,8 +1,8 @@
 # latest-semver [![Build Status](https://travis-ci.org/sindresorhus/latest-semver.svg?branch=master)](https://travis-ci.org/sindresorhus/latest-semver)
 
-> Get the latest stable [semver](http://semver.org) version from an array of versions
+> Get the latest stable [semver](https://semver.org) version from an array of versions
 
-Can be useful when you have an unsorted list of versions, like git tags, and want to get the semantically latest version.
+Can be useful when you have an unsorted list of versions, like Git tags, and want to get the semantically latest version.
 
 
 ## Install
