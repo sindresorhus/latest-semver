@@ -35,7 +35,7 @@
 		"tags"
 	],
 	"dependencies": {
-		"to-semver": "^1.1.0"
+		"to-semver": "^2.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
