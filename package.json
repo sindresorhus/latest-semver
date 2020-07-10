@@ -10,7 +10,7 @@
 		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -35,7 +35,7 @@
 		"tags"
 	],
 	"dependencies": {
-		"to-semver": "^2.0.0"
+		"to-semver": "^3.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
