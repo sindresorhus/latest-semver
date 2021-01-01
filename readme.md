@@ -1,4 +1,4 @@
-# latest-semver [![Build Status](https://travis-ci.com/sindresorhus/latest-semver.svg?branch=master)](https://travis-ci.com/github/sindresorhus/latest-semver)
+# latest-semver
 
 > Get the latest stable [semver](https://semver.org) version from an array of versions
 
