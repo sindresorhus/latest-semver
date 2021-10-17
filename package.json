@@ -1,6 +1,6 @@
 {
 	"name": "latest-semver",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Get the latest stable semver version from an array of versions",
 	"license": "MIT",
 	"repository": "sindresorhus/latest-semver",
