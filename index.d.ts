@@ -5,7 +5,7 @@ Non-semver versions and prereleases are ignored.
 
 @example
 ```
-import latestSemver = require('latest-semver');
+import latestSemver from 'latest-semver';
 
 latestSemver([
 	'v1.8.0-alpha.1',
@@ -22,6 +22,4 @@ latestSemver([
 //=> undefined
 ```
 */
-declare function latestSemver(versions: readonly string[]): string | undefined;
-
-export = latestSemver;
+export default function latestSemver(versions: readonly string[]): string | undefined;

@@ -1,4 +1,5 @@
-'use strict';
-const toSemver = require('to-semver');
+import toSemver from 'to-semver';
 
-module.exports = versions => toSemver(versions, {includePrereleases: false})[0];
+export default function latestSemver(versions) {
+	return toSemver(versions, {includePrereleases: false})[0];
+}

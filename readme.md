@@ -2,18 +2,18 @@
 
 > Get the latest stable [semver](https://semver.org) version from an array of versions
 
-Can be useful when you have an unsorted list of versions, like Git tags, and want to get the semantically latest version.
+This can be useful when you have an unsorted list of versions, like Git tags, and want to get the semantically latest version.
 
 ## Install
 
-```
-$ npm install latest-semver
+```sh
+npm install latest-semver
 ```
 
 ## Usage
 
 ```js
-const latestSemver = require('latest-semver');
+import latestSemver from 'latest-semver';
 
 latestSemver([
 	'v1.8.0-alpha.1',
